@@ -6,7 +6,7 @@ import random
 
 
 def event(probabilities, occurrences):
-    outcomes = []  # we are getting how many for each input
+    outcomes = []  # we are getting how many probabilities for each input
     for probability_dict in probabilities:
         for outcome, probability in probability_dict.items():
             for _ in range(probability):
